@@ -1,0 +1,53 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.n1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 16px 120px;
+}
+.nl{
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 500px;
+}
+.nl a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nl a:hover {
+  color: #30B868;
+}
+.navbtn a{
+  background-color: green;
+  color: #FFFFFF;
+  padding: 12px 16px;
+  border-radius: 5px;
+  gap: 10px;
+  height: 44px;
+  width: 164px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.navbtn a:hover{
+  background-color: red;
+}
+.logo img {
+  height: 60px;
+  gap: 10px;
+  margin-right: 120px;
+}
