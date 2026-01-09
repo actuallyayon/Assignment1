@@ -162,14 +162,13 @@ font-size: 24px;
 color: #001931;
 }
 .card{
-    /* margin-right: 0px; */
     margin-left: 240px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     gap: 24px;
-    /* align-items: center; */
     align-content: center;
+    cursor: pointer;
 }
 .c1{
     text-align: center;
@@ -188,4 +187,45 @@ color: #001931;
     font-size: 16px;
     font-weight: 400px;
     color: #627382;
+}
+.knowledge{
+    display: flex;
+}
+.no{
+    margin-left: 240px;
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    gap: 60px;
+}
+.box{
+    margin-left: 60px;
+    margin-right: 120px;
+    text-align: justify;
+}
+.box li{
+    list-style: none;
+}
+.box h3{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+    width: 700px;
+}
+.box h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700px;
+    width: 700px;
+}
+.box p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    width: 700px;
+}
+.box li{
+     color: #001931;
+    font-size: 16px;
+    font-weight: 500px;
 }
