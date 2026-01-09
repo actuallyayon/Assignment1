@@ -135,3 +135,57 @@
 .hero-buttons .btn2:hover{
     background-color: red;
 }
+.c1 img{
+    background-color: #F95555;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: 60px 60px;
+}
+.c2{
+    width: 322px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    border-radius: 8PX;
+    background-color: #FFFFFF;
+    box-shadow: 8px px 10px grey;
+    text-align: center;
+    align-items: center;
+    padding: 24px 24px;
+}
+.c2:hover{
+    background-color: lavenderblush;
+}
+.c1 h3{
+font-weight: 600px;
+font-size: 24px;
+color: #001931;
+}
+.card{
+    /* margin-right: 0px; */
+    margin-left: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 24px;
+    /* align-items: center; */
+    align-content: center;
+}
+.c1{
+    text-align: center;
+}
+.note{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #001931;
+}
+.note2{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+}
+.c1 p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+}
